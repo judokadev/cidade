@@ -71,7 +71,7 @@
     position: absolute;
     height: 30px;
     width: 850px;
-    left: 660px;
+    right: 0%;
     top:0%;
     font-size: 18px;
     padding: 3px;
@@ -108,8 +108,8 @@
     font-size: 16px;
     color: black;
     border-radius: 20%;
-    left: 550px;
-    top:90px;
+    left: 45%;
+    top:15%;
 }
 .cidadema2{
     border: 2px solid rgb(0, 0, 0);
@@ -533,12 +533,11 @@
     color: rgb(56, 129, 109);
 }
 .fotopersonagem{
-    width: 110px;
-    height: 118px;
+    width: 55%;
+    height: 40%;
     border: 3px solid rgb(255, 255, 255);
     border-radius: 2%;
-    right: 10%;
-    top:14px;
+    right: 0%;
     position: absolute;    
 }
 .fotopersonageminv{
@@ -551,29 +550,31 @@
 }
 .personagem{
     color: rgb(56, 129, 109);
-    height: 305px;
-    width: 250px;
+    height: 58%;
+    width: 80%;
+    margin: 10px;
     border: 5px solid white;
     border-radius: 2%;
-    margin: 5% 10%;
+    position: absolute;
     display: flex;
+    left: 5%;
     font-size: 16px;
-    padding: 0px 0px 0px 10px;
+    
 }
+
 .pjudoka{
     margin: 0px;
+    padding: 0px;
 }
 .judoka{
     font-family: "Graduate", serif;
-    font-size: 20px;
-    margin:5px;
-    padding: 0px;
-    position: absolute;
+    font-size: 19px;
+    margin: 0px;
+    text-align: center;
     border: 3px solid white;
-    width: 100px;
-    left: 25px;
-    top:10px;
-    height: 30px;
+    padding: 1%;
+    width: 41%;
+    height: 8%;
 }
 .lvlp{
     margin: 0px;
@@ -584,22 +585,19 @@
     display: flex;
     position: absolute;
     border: 3px solid white;
-    left: 30px;
-    top: 47px;
-    height: 85px;
-    width: 101px;
+    top: 10%;
+    height: 30%;
+    width: 40%;
     padding: 0px 0px 0px 10px;
 }
 .descriçaofoto{ 
     width: 35%;
     position: absolute;
-    top: 23%;
     text-align:left;
     font-size: 19px;
-    width: 191px;
-    height: 152px;
-    left:32px;
-    top:118px;
+    height: 50%;
+    left:0%;
+    top:35%;
     padding: 0px 0px 20px 10px;
 }
 .descriçaofoto2{
@@ -654,29 +652,94 @@
 }
 .botoeslateral{
     width: 95%;
-    height: 245px;
+    height: 38%;
     margin: 5px;
     position: absolute;
-    bottom: 0;
-    left: 0px;
+    bottom:0%;
     text-decoration: none;
     color: rgb(56, 129, 109);
-    font-family: "Graduate", serif;    
+    font-family: "Graduate", serif;   
 }
 .aa{
     text-decoration: none;
     font-size: 40px;
     padding:5px ;
-    margin: none;   
+    margin: 0%;   
 }
+.aa1{
+    text-decoration: none;
+    font-size: 40px;
+    padding:5px ;
+    margin: 50%;   
+}
+.bb{
+    text-decoration: none; 
+    color: rgb(56, 129, 109);
+    text-align: center;
+}
+
 .aaa{
     text-decoration: none;
+    align-items: center;
     color: rgb(56, 129, 109);  
 }
-.botoeslt{
-    width: 120px;
-    height: 10px;
+ 
+
+.botoeslt1{
+    text-align: center;
+    width: 10%;
+    height: 10%;
     display: inline-block;
+    position: absolute;
+    left: 15%;
+}
+.botoeslt2{
+    text-align: center;
+    width: 10%;
+    height: 10%;
+    display: inline-block;
+    position: absolute;
+    left: 55%;
+    
+}
+.botoeslt3{
+    text-align: center;
+    width: 10%;
+    height: 10%;
+    display: inline-block;
+    position: absolute;
+    top: 33%;
+    left: 17%;
+    
+}
+.botoeslt4{
+    text-align: center;
+    width: 10%;
+    height: 10%;
+    display: inline-block;
+    position: absolute;
+    top: 33%;
+    left: 55%;
+    
+}
+.botoeslt5{
+    text-align: center;
+    width: 10%;
+    height: 10%;
+    display: inline-block;
+    position: absolute;
+    top: 60%;
+    left: 17%;
+    
+}
+.botoeslt6{
+    text-align: center;
+    width: 10%;
+    height: 10%;
+    display: inline-block;
+    position: absolute;
+    top: 60%;
+    left: 55%;
 }
 .linklateral{
     font-size: 25px;
