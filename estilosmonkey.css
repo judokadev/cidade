@@ -1,7 +1,13 @@
 .body{
     font-family: "Graduate", serif;
 }
-
+.audio{
+    position: absolute;
+    bottom: 0;
+    left: 1%;
+    width: 300px;
+    height: 100px;
+}
 .quadradoinicial{
     position: absolute;
     top: 15%;
@@ -18,6 +24,35 @@
     font-size: 25px;
     color: rgb(56, 129, 109);
     text-align: center;
+}
+.quadradobairro{
+    position: absolute;
+    top: 15%;
+    left: 0;
+    bottom: 10%;
+    height: 100%;
+    width: 80%;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.796);
+    align-content:space-between;
+    padding: 10px;
+    flex-wrap: wrap;
+    font-family: "Graduate", serif;
+    font-size: 25px;
+    color: rgb(56, 129, 109);
+    text-align: center;
+}
+.imgbairro{
+    width: 100%;
+    height: 90%;
+    background-color: red;
+    padding:;
+}
+.bairro1{
+    width: auto;
+    height: 90%;
+    margin: 2.5%;
+    padding: 0;
 }
 .tituloq{
     height: 6%;
@@ -62,8 +97,8 @@
     position: absolute;
     display: inline-block;
     padding: 10px;
-    width: 51%;
-    left: 49%;
+    width: 53%;
+    left: 45%;
     bottom: -5px;
 }
 .barrasaude{
@@ -550,7 +585,7 @@
 }
 .personagem{
     color: rgb(56, 129, 109);
-    height: 40%;
+    height: 58%;
     width: 80%;
     margin: 10px;
     border: 5px solid white;
