@@ -1,6 +1,6 @@
 .body{
     font-family: "Graduate", serif;
-    
+
 }
 .audio{
     position: absolute;
@@ -69,7 +69,6 @@
     color:  rgb(56, 129, 109);
     border: 3px solid white;
     text-align:left;
-    font-size: 30px;
     position: absolute;
     padding: auto;
     display: flex;
@@ -95,22 +94,22 @@
     color: rgb(56, 129, 109);
 }
 .linkinicio{
-    font-size: 22px;
+    font-size: 140%;
     position: absolute;
     display: inline-block;
     padding: 10px;
     width: 53%;
     left: 45%;
-    bottom: -5px;
+    bottom: 0%;
 }
 .barrasaude{
     border: 3px solid white;
     position: absolute;
-    height: 30px;
-    width: 850px;
+    height: 35%;
+    width: 60%;
     right: 0%;
     top:0%;
-    font-size: 18px;
+    font-size: 120%;
     padding: 3px;
     text-align: center;
 }
@@ -667,8 +666,8 @@
     color: rgb(56, 129, 109);
 }
 .monkimg{
-    width: 80px;
-    height: 80px;
+    width: 6%;
+    height: 98%;
     
 }
 
@@ -684,8 +683,8 @@
 
 .m1{
     position: absolute;
-    bottom: 0px;
-    left: 80px;
+    bottom: 0%;
+    left: 6.5%;
 }
 .botoeslateral{
     width: 95%;
