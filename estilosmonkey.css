@@ -1,14 +1,22 @@
 .body{
+    width: 100vw;    
+    height: 100vh;
     font-family: "Graduate", serif;
 
 }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
 .audio{
     position: absolute;
-    bottom: 0;
-    width: 90%;
+    left: 3%;
+    width: 15%;
     height: 3%;
     margin-inline: 5%;
-
+    top:2%;
 }
 .quadradoinicial{
     position: absolute;
@@ -19,8 +27,6 @@
     width: 80%;
     display: flex;
     background-color: rgba(0, 0, 0, 0.796);
-    align-content:space-between;
-    padding: 10px;
     flex-wrap: wrap;
     font-family: "Graduate", serif;
     font-size: 25px;
@@ -63,6 +69,7 @@
     font-family: "Graduate", serif;
 }
 .barrasup{
+    left: 0.5%;
     width: 99%;
     height: 12%;
     font-family: "Graduate", serif;
@@ -71,37 +78,26 @@
     text-align:left;
     position: absolute;
     padding: auto;
-    display: flex;
-    
+    display: flex;    
 }
 
-.barralateral{
-    background-color: rgba(0, 0, 0, 0.796);
-    width: 18%;
-    height:85%;
-    position: absolute;
-    right: 0px;
-    top:15%;
-    text-align: center;
-    display: flex;   
-}
 
-.cor{
+
+.btlinkinicio{
     color: rgb(56, 129, 109);
+    margin-left: 1%;
 }
 .linkinicio{
     font-size: 140%;
     position: absolute;
-    display: inline-block;
-    padding: 10px;
-    width: 53%;
-    left: 45%;
+    width: 56%;
+    left: 43%;
     bottom: 0%;
 }
 .barrasaude{
     border: 3px solid white;
     position: absolute;
-    height: 35%;
+    height: 50%;
     width: 60%;
     right: 0%;
     top:0%;
@@ -110,12 +106,7 @@
     text-align: center;
 }
 
-.lojaimg{
-    width: 120px;
-    height: 100px;
-    display: block;
-    margin: 0px 0px 0px 30px;
-}
+
 .fundofloripa{
     display: flex;
     border: 3px solid white;
@@ -134,7 +125,7 @@
     background-color: rgba(0, 0, 0, 0.803);
     display: block;
     align-items: center;
-    height: 20%;
+    height: 22%;
     width: 8%;
     position: absolute;
     font-size: 68%;
@@ -143,12 +134,28 @@
     left: 45%;
     top:15%;
 }
+
+.formacidade{
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.803);
+    display: block;
+    align-items: center;
+   height: 22%;
+    width: 8%;
+    position: absolute;
+    font-size: 18px;
+    color: black;
+    border-radius: 20%;
+    left: 40%;
+    top: 45%;
+
+}
 .cidadema2{
     border: 2px solid rgb(0, 0, 0);
     background-color: rgba(0, 0, 0, 0.803);
     display: block;
     align-items: center;
-    height: 20%;
+    height: 22%;
     width: 8%;
     position: absolute;
     font-size: 18px;
@@ -162,8 +169,8 @@
     background-color: rgba(0, 0, 0, 0.803);
     display: block;
     align-items: center;
-    height: 100px;
-    width: 100px;
+    height: 22%;
+    width: 8%;
     position: absolute;
     font-size: 18px;
     color: black;
@@ -176,8 +183,8 @@
     background-color: rgba(0, 0, 0, 0.803);
     display: block;
     align-items: center;
-    height: 100px;
-    width: 100px;
+    height: 22%;
+    width: 8%;
     position: absolute;
     font-size: 16px;
     color: black;
@@ -190,8 +197,8 @@
     background-color: rgba(0, 0, 0, 0.803);
     display: block;
     align-items: center;
-    height: 100px;
-    width: 100px;
+    height: 25%;
+    width: 8%;
     position: absolute;
     font-size: 18px;
     color: black;
@@ -205,8 +212,8 @@
     background-color: rgba(0, 0, 0, 0.803);
     display: block;
     align-items: center;
-    height: 106px;
-    width: 100px;
+    height: 25%;
+    width: 8%;
     position: absolute;
     font-size: 18px;
     color: black;
@@ -219,8 +226,8 @@
     background-color: rgba(0, 0, 0, 0.803);
     display: block;
     align-items: center;
-    height: 120px;
-    width: 100px;
+    height: 25%;
+    width: 8%;
     position: absolute;
     font-size: 18px;
     color: black;
@@ -233,8 +240,8 @@
     background-color: rgba(0, 0, 0, 0.803);
     display: block;
     align-items: center;
-    height: 120px;
-    width: 100px;
+    height: 25%;
+    width: 8%;
     position: absolute;
     font-size: 18px;
     color: black;
@@ -247,8 +254,8 @@
     background-color: rgba(0, 0, 0, 0.803);
     display: block;
     align-items: center;
-    height: 100px;
-    width: 100px;
+    height: 25%;
+    width: 8%;
     position: absolute;
     font-size: 18px;
     color: black;
@@ -261,8 +268,8 @@
     background-color: rgba(0, 0, 0, 0.803);
     display: block;
     align-items: center;
-    height: 120px;
-    width: 100px;
+    height: 25%;
+    width: 8%;
     position: absolute;
     font-size: 18px;
     color: black;
@@ -276,8 +283,8 @@
     background-color: rgba(0, 0, 0, 0.803);
     display: block;
     align-items: center;
-    height: 105px;
-    width: 100px;
+    height: 18%;
+    width: 8%;
     position: absolute;
     font-size: 18px;
     color: black;
@@ -290,8 +297,8 @@
     background-color: rgba(0, 0, 0, 0.803);
     display: block;
     align-items: center;
-    height: 120px;
-    width: 100px;
+    height: 25%;
+    width: 8%;
     position: absolute;
     font-size: 18px;
     color: black;
@@ -304,8 +311,8 @@
     background-color: rgba(0, 0, 0, 0.803);
     display: block;
     align-items: center;
-    height: 120px;
-    width: 100px;
+    height: 25%;
+    width: 8%;
     position: absolute;
     font-size: 18px;
     color: black;
@@ -313,27 +320,14 @@
     left: 520px;
     top:100px;
 }
-.cidademc4{
-    border: 2px solid rgb(0, 0, 0);
-    background-color: rgba(0, 0, 0, 0.803);
-    display: block;
-    align-items: center;
-    height: 100px;
-    width: 100px;
-    position: absolute;
-    font-size: 18px;
-    color: black;
-    border-radius: 20%;
-    left: 210px;
-    top:285px;
-}
+
 .cidademc5{
     border: 2px solid rgb(0, 0, 0);
     background-color: rgba(0, 0, 0, 0.803);
     display: block;
     align-items: center;
-    height: 100px;
-    width: 100px;
+    height: 18%;
+    width: 8%;
     position: absolute;
     font-size: 18px;
     color: black;
@@ -347,8 +341,8 @@
     background-color: rgba(0, 0, 0, 0.803);
     display: block;
     align-items: center;
-    height: 105px;
-    width: 100px;
+    height: 22%;
+    width: 8%;
     position: absolute;
     font-size: 18px;
     color: black;
@@ -361,8 +355,8 @@
     background-color: rgba(0, 0, 0, 0.803);
     display: block;
     align-items: center;
-    height: 103px;
-    width: 100px;
+    height: 22%;
+    width: 8%;
     position: absolute;
     font-size: 18px;
     color: black;
@@ -375,8 +369,8 @@
     background-color: rgba(0, 0, 0, 0.803);
     display: block;
     align-items: center;
-    height: 120px;
-    width: 100px;
+    height: 22%;
+    width: 8%;
     position: absolute;
     font-size: 18px;
     color: black;
@@ -389,8 +383,8 @@
     background-color: rgba(0, 0, 0, 0.803);
     display: block;
     align-items: center;
-    height: 100px;
-    width: 100px;
+    height: 22%;
+    width: 8%;
     position: absolute;
     font-size: 18px;
     color: black;
@@ -403,8 +397,8 @@
     background-color: rgba(0, 0, 0, 0.803);
     display: block;
     align-items: center;
-    height: 100px;
-    width: 100px;
+    height: 22%;
+    width: 8%;
     position: absolute;
     font-size: 18px;
     color: black;
@@ -418,8 +412,8 @@
     background-color: rgba(0, 0, 0, 0.803);
     display: block;
     align-items: center;
-    height: 103px;
-    width: 100px;
+    height: 22%;
+    width: 8%;
     position: absolute;
     font-size: 18px;
     color: black;
@@ -432,8 +426,8 @@
     background-color: rgba(0, 0, 0, 0.803);
     display: block;
     align-items: center;
-    height: 100px;
-    width: 100px;
+    height: 22%;
+    width: 8%;
     position: absolute;
     font-size: 15px;
     color: black;
@@ -446,8 +440,8 @@
     background-color: rgba(0, 0, 0, 0.803);
     display: block;
     align-items: center;
-    height: 120px;
-    width: 100px;
+    height: 22%;
+    width: 8%;
     position: absolute;
     font-size: 18px;
     color: black;
@@ -460,8 +454,8 @@
     background-color: rgba(0, 0, 0, 0.803);
     display: block;
     align-items: center;
-    height: 100px;
-    width: 100px;
+    height: 22%;
+    width: 8%;
     position: absolute;
     font-size: 18px;
     color: black;
@@ -475,8 +469,8 @@
     background-color: rgba(0, 0, 0, 0.803);
     display: block;
     align-items: center;
-    height: 103px;
-    width: 100px;
+    height: 22%;
+    width: 8%;
     position: absolute;
     font-size: 18px;
     color: black;
@@ -489,8 +483,8 @@
     background-color: rgba(0, 0, 0, 0.803);
     display: block;
     align-items: center;
-    height: 104px;
-    width: 100px;
+    height: 22%;
+    width: 8%;
     position: absolute;
     font-size: 18px;
     color: black;
@@ -503,8 +497,8 @@
     background-color: rgba(0, 0, 0, 0.803);
     display: block;
     align-items: center;
-    height: 113px;
-    width: 100px;
+    height: 22%;
+    width: 8%;
     position: absolute;
     font-size: 15px;
     color: black;
@@ -517,8 +511,8 @@
     background-color: rgba(0, 0, 0, 0.803);
     display: block;
     align-items: center;
-    height: 110px;
-    width: 100px;
+    height: 22%;
+    width: 8%;
     position: absolute;
     font-size: 13px;
     color: black;
@@ -531,8 +525,8 @@
     background-color: rgba(0, 0, 0, 0.803);
     display: block;
     align-items: center;
-    height: 100px;
-    width: 100px;
+    height: 22%;
+    width: 8%;
     position: absolute;
     font-size: 15px;
     color: black;
@@ -543,15 +537,20 @@
 }
 
 .cidadecentro{
-    width: 92px;
-    height: 73px;
+    margin: 5%;
+    padding: 1%;
+    width: 83%;
+    height: 50%;
     border-radius: 45%;
-    border: 2px solid white;
+    border: 1px solid white;
 }
 
 .tituloedificio{
     color: rgb(56, 129, 109);
-    
+}
+.cor{
+    color: rgb(56, 129, 109);
+    text-decoration: none;
 }
 .edificiomonkey{
     text-align: center;
@@ -568,30 +567,16 @@
     width: 55%;
     height: 40%;
     border: 3px solid rgb(255, 255, 255);
-    border-radius: 2%;
-    right: 0%;
+    right: 0;
     position: absolute;    
 }
 .fotopersonageminv{
-    width: 130px;
-    height: 130px;
+    width: 25%;
+    height: 36%;
     border: 3px solid rgb(255, 255, 255);
     border-radius: 8%;
     left: 5%;
     position: absolute;    
-}
-.personagem{
-    color: rgb(56, 129, 109);
-    height: 58%;
-    width: 80%;
-    margin: 10px;
-    border: 5px solid white;
-    border-radius: 2%;
-    position: absolute;
-    display: flex;
-    left: 5%;
-    font-size: 16px;
-    
 }
 
 .pjudoka{
@@ -605,8 +590,8 @@
     text-align: center;
     border: 3px solid white;
     padding: 1%;
-    width: 41%;
-    height: 8%;
+    width: 45%;
+    height: 10%;
 }
 .lvlp{
     margin: 0px;
@@ -619,28 +604,29 @@
     border: 3px solid white;
     top: 10%;
     height: 30%;
-    width: 40%;
+    width: 45%;
     padding: 0px 0px 0px 10px;
 }
 .descriçaofoto{ 
-    width: 35%;
+    width: 52%;
     position: absolute;
     text-align:left;
     font-size: 19px;
-    height: 50%;
-    left:0%;
+    height: 63%;
+    left:4%;
     top:35%;
-    padding: 0px 0px 20px 10px;
+    padding: 0%;
+   
 }
 .descriçaofoto2{
-    height: 50%;
+    height: 65%;
     width: 35%;
     position: absolute;
-    left:132px;
-    top:117px;
+    left:61%;
+    top:35%;
     text-align: center;
     font-size: 19px;
-    padding: 3px;
+   
     
 }
 .glock{
@@ -675,33 +661,9 @@
     bottom: 0%;
     left: 6.5%;
 }
-.botoeslateral{
-    width: 95%;
-    height: 38%;
-    margin: 5px;
-    position: absolute;
-    bottom:0%;
-    text-decoration: none;
-    color: rgb(56, 129, 109);
-    font-family: "Graduate", serif;   
-}
-.aa{
-    text-decoration: none;
-    font-size: 40px;
-    padding:5px ;
-    margin: 0%;   
-}
-.aa1{
-    text-decoration: none;
-    font-size: 40px;
-    padding:5px ;
-    margin: 50%;   
-}
-.bb{
-    text-decoration: none; 
-    color: rgb(56, 129, 109);
-    text-align: center;
-}
+
+
+
 
 .aaa{
     text-decoration: none;
@@ -710,88 +672,9 @@
 }
  
 
-.botoeslt1{
-    text-align: center;
-    width: 10%;
-    height: 10%;
-    display: inline-block;
-    position: absolute;
-    left: 15%;
-}
-.botoeslt2{
-    text-align: center;
-    width: 10%;
-    height: 10%;
-    display: inline-block;
-    position: absolute;
-    left: 55%;
-    
-}
-.botoeslt3{
-    text-align: center;
-    width: 10%;
-    height: 10%;
-    display: inline-block;
-    position: absolute;
-    top: 33%;
-    left: 17%;
-    
-}
-.botoeslt4{
-    text-align: center;
-    width: 10%;
-    height: 10%;
-    display: inline-block;
-    position: absolute;
-    top: 33%;
-    left: 55%;
-    
-}
-.botoeslt5{
-    text-align: center;
-    width: 10%;
-    height: 10%;
-    display: inline-block;
-    position: absolute;
-    top: 60%;
-    left: 17%;
-    
-}
-.botoeslt6{
-    text-align: center;
-    width: 10%;
-    height: 10%;
-    display: inline-block;
-    position: absolute;
-    top: 60%;
-    left: 55%;
-}
-.linklateral{
-    font-size: 25px;
-    font-family: "Graduate", serif;
-    color: rgb(183, 207, 199);
-    padding: 10px;
 
-}
-.botaocamisa2{
-    width: 100px;
-    height: 30px;
-    font-size: 15px;
-    position: relative;
-    margin:2px;
 
-}
 
-.pesquisa{
-    
-    position: absolute;
-    display: flex;
-    padding: 5px;
-    right: 10px;
-    bottom: 5px;
-    
-    
-}
 
 .quadro1{
     display: flex;
@@ -822,20 +705,30 @@
 }
 .armazem{
     display: inline-block;
-    width: 400px;
-    height: 420px;
+    width: 49.5%;
+    height: 98%;
     background-image: linear-gradient(45deg,rgb(0, 0, 0), rgb(52, 52, 52), rgb(37, 37, 37), rgb(0, 0, 0));
     border: 3px solid rgb(255, 255, 255);
     border-radius: 2%;
     position: absolute;
-    left: 10%;
-    padding: 10px;
-    margin: 5px 0px 0px 0px;
+    left: 0%;
+    
+    
 }
 .mochila{
     display: inline-block;
-    width: 400px;
-    height: 420px;
+    width: 49.5%;
+    height: 98%;
+    background-image: linear-gradient(45deg,rgb(0, 0, 0), rgb(52, 52, 52), rgb(37, 37, 37), rgb(0, 0, 0));
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 2%;
+    position: absolute;
+    padding: 10px;
+}
+.mochila2{
+    display: inline-block;
+    width: 45%;
+    height: 90%;
     background-image: linear-gradient(45deg,rgb(0, 0, 0), rgb(52, 52, 52), rgb(37, 37, 37), rgb(0, 0, 0));
     border: 3px solid rgb(255, 255, 255);
     border-radius: 2%;
@@ -843,18 +736,31 @@
     padding: 10px;
     margin: 5px 0px 0px 20px;
 }
+.equip{
+    display: inline-block;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 2%;
+    margin: 2.5%;
+    width: 45%;
+    height: 90%;
+    background-image: linear-gradient(45deg,rgb(0, 0, 0), rgb(52, 52, 52), rgb(37, 37, 37), rgb(0, 0, 0));
+    position: absolute;
+    left: 50%;
+    padding: 10px;
+    margin: 5px 0px 0px 20px;
+}
 .tituloar{
     margin: 0px;
-    background-color: rgb(82, 82, 82);
-    color: black;
+    background-color: rgb(0, 0, 0);
+    color: rgb(56, 129, 109);
 }
 .quadroslots{
     background-color: rgba(41, 39, 5, 0.905);
     border: 2px solid black;
-    height: 260px;
-    width: 360px;
+    height: 60%;
+    width: 95%;
     position: absolute;
-    top: 160px;
+    top: 38%;
     align-content: center;
     padding: 0px 15px;
     display: flex;
@@ -869,15 +775,7 @@
     border-radius: 2%;
     display: flex;
 }
-.equip{
-    border: 3px solid rgb(255, 255, 255);
-    border-radius: 2%;
-    margin: 2.5%;
-    width: 45%;
-    height: 96%;
-    background-image: linear-gradient(45deg,rgb(0, 0, 0), rgb(52, 52, 52), rgb(37, 37, 37), rgb(0, 0, 0));
-    display: flex;
-}
+
 .qdinv{
     margin-top: 29%;
     margin-left:3%;
@@ -889,55 +787,57 @@
     padding: 7px;
 }
 .person1{
-    width: 320px;
-    height: 355px;
+    width: 58%;
+    height: 80%;
     border: 3px solid white;
-    bottom: 50px;
+    bottom: 3%;
     border-radius: 5%;
-    right: 120px;
+    right:3%;
     position:absolute;
+    
 }
 .imgequip1{
-    width: 65px;
-    height:75px;
-    margin: 10%;
+    position: absolute;
+    width: 95%;
+    height: 95%;
     border-radius: 20%;
+    left: 0;
 }
 .imgequip2{
-    width: 65px;
-    height:55px;
+    width: 92%;
+    height:92%;
     margin: 5px;
     border-radius: 20%;
 }
 .imgequip3{
-    width: 40px;
-    height:38px;
+    width: 95%;
+    height:95%;
     margin: 2px;
     border-radius: 20%;
 }
 .dorso{
-    width: 80px;
-    height: 90px;
+    width: 25%;
+    height: 26%;
     background-color: #63611d;
     position: absolute;
-    top: 85px;
-    left: 130px;
+    left: 41%;
+    top: 23%;
     border: 2px solid white;
     border-radius: 5%;
 }
 .cabeca{
-    width: 70px;
-    height: 70px;
+    width: 23%;
+    height: 20%;
     background-color: #63611d;
     position: absolute;
-    top: 5px;
-    left: 135px;
+    top: 1%;
+    left: 42%;
     border: 2px solid white;
     border-radius: 5%;
 }
 .pes{
-    width: 70px;
-    height: 65px;
+    width: 23%;
+    height: 18%;
     background-color: #63611d;
     position: absolute;
     top: 285px;
@@ -946,28 +846,28 @@
     border-radius: 5%;
 }
 .colete{
-    width: 80px;
-    height: 90px;
+    width: 25%;
+    height: 26%;
     background-color: #63611d;
     position: absolute;
-    top: 85px;
-    left: 40px;
+    top: 23%;
+    left: 14%;
     border: 2px solid white;
     border-radius: 5%;
 }
 .arma{
-    width: 70px;
-    height: 70px;
+    width: 25%;
+    height: 20%;
     background-color: #63611d;
     position: absolute;
-    top: 190px;
-    left: 225px;
+    top: 51%;
+    left: 70%;
     border: 2px solid white;
     border-radius: 5%;
 }
 .costas{
-    width: 80px;
-    height: 90px;
+    width: 25%;
+    height: 26%;
     background-color: #63611d;
     position: absolute;
     top: 85px;
@@ -976,8 +876,8 @@
     border-radius: 5%;
 }
 .pernas{
-    width: 80px;
-    height: 90px;
+    width: 25%;
+    height: 26%;
     background-color: #63611d;
     position: absolute;
     top: 185px;
@@ -986,8 +886,8 @@
     border-radius: 5%;
 }
 .celular{
-    width: 70px;
-    height: 70px;
+    width: 23%;
+    height: 20%;
     background-color: #63611d;
     position: absolute;
     top: 190px;
@@ -996,8 +896,8 @@
     border-radius: 5%;
 }
 .anel{
-    width: 45px;
-    height: 45px;
+    width: 14%;
+    height: 13%;
     background-color: #63611d;
     position: absolute;
     top: 30px;
@@ -1006,8 +906,8 @@
     border-radius: 5%;
 }
 .colar{
-    width: 45px;
-    height: 45px;
+    width: 14%;
+    height: 13%;
     background-color: #63611d;
     position: absolute;
     top: 30px;
@@ -1018,12 +918,14 @@
 
 .buster{
     border: 2px solid white;
+    background-color: #474747ad;
     border-radius: 8%;
-    width: 145px;
-    height: 140px;
+    width: 35%;
+    height: 30%;
     margin: 4px;
     position: absolute;
-    top:260px;
+    bottom: 20%;
+    
     font-size: 13px;
 }
 .buster1{
@@ -1031,7 +933,6 @@
     border-radius: 8%;
     width: 73%;
     height: 110px;
-    background-color: #474747;
     position: absolute;
     margin: 2px;
 }
@@ -1040,64 +941,60 @@
     border-radius: 10%;
     width: 30%;
     height: 110px;
-    background-color: #474747;
     position: absolute;
     left: 67%;
     margin: 2px;
 }
 .person2{
-    width: 180px;
-    height: 140px;
-    top: 119px;
-    right: 420px;
+    width: 100%;
+    height: 90%;
+    top: 10%;
+    left:0;
     position:absolute;
+
 }
 .titulopr{
-    background-color: black;
-    margin: none;
-    text-align: center;
-    display: block;
-    width:39%;
-    height: 30px;
-    position: absolute;
-    top: 11%;
+    margin-top: 0;
+    background-color: rgb(0, 0, 0);
     color: rgb(56, 129, 109);
 }
 .quadroper{
     align-items: center;
     display: flex;
-    padding: 0px;
-    margin-top: 10px;
+    width: 100%;
+    border-radius: 1%;
+    height: 95%;
+}
+.quadroper2{
+       margin-top: 10px;
     margin-left: 5%;
     margin-bottom: 10px;
     margin-right: 0%;
+    align-items:center;
+    display: flex;
+    padding: 0px;
     width: 89%;
     border-radius: 1%;
     height: 450px;
 }
 .slots{
     background-color: #63611d;
-    width: 35px;
-    height: 35px;
-    border: 3px solid rgb(0, 0, 0);   
+    width: 10%;
+    height: 10%;
+    border: 2px solid rgb(0, 0, 0);   
     margin: 0%;
     
 }
-.mochilap{
-    width: 100px;
-    height: auto;
-    left: 300px;
-    top: 50px;
-    margin: 10px;
-    display: inline-block;
-}
+
 .mochilaa{
-    width: 100px;
+    width: 23%;
     height: auto;
     margin-top:10px;
     margin-right: 35%;
     position: absolute;
     left: 10px;
+    border: 2px solid #252525;
+    background-color: #535350e2;
 }
 .mochilab{
     width: 120px;
@@ -1109,22 +1006,24 @@
     
 }
 .descmoc{
-    width: 140px;
-    height: 75px;
+    align-content: center;
+    width: 32%;
+    height: 25%;
     position: absolute;
     font-size: 15px;
     border: 2px solid white;
     border-radius: 6%;
-    left: 120px;
-    top: 49px;
+    left: 30%;
+    top: 10%;
 }
 .descak{
     border: 2px solid white;
     border-radius: 6%;
-    width: 120px;
-    height: 30px;
-    left: 270px;
-    top: 120px;
+    align-content: center;
+    width: 30%;
+    height: 9%;
+    right: 6%;
+    top: 27%;
     position: absolute;
     font-size: 13px;
 }
@@ -1145,3 +1044,304 @@ h{
     left: 30%;
     top: 10%;
 }
+.glock2{
+    left:4.7%;
+    top: 6.5%;
+    padding: 0px;
+    margin: 0px;
+    width: 25%;
+    height: 27%;
+    position: absolute;
+    border: 2px solid #252525;
+    background-color: #535350e2;
+}
+.mochilap{
+    width: 25%;
+    height: 27%;
+    margin: 0;
+    padding: 0;
+    left: 33%;
+    top:6.5%;
+    position: absolute;
+    border: 2px solid #252525;
+    background-color: #535350e2;
+}
+.mochilab{
+    width: 25%;
+    height: 27%;
+    margin: 0;
+    padding: 0;
+    left: 61%;
+    top:6.5%;
+    position: absolute;
+    border: 2px solid #252525;
+    background-color: #535350e2;
+}
+.mochilav{
+    width: 25%;
+    height: 27%;
+    margin: 0;
+    padding: 0;
+    left: 61%;
+    top: 36.5%;
+    position: absolute;
+    border: 2px solid #252525;
+    background-color: #535350e2;
+}
+.akinv{
+    width: 53.5%;
+    height: 27%;
+    margin: 0;
+    padding: 0;
+    left: 4.7%;
+    top: 36.5%;
+    position: absolute;
+    border: 2px solid #252525;
+    background-color: #535350e2;
+}
+.akequip{
+    padding: 0px;
+    margin: 0px;
+    width: 30%;
+    height: 15%;
+    top: 10%;
+    position: absolute;
+    left: 64%;
+    border: 2px solid #252525;
+    background-color: #535350e2;
+}
+.muniinv{
+    left: 22.8%;
+    top: 6%;
+    padding: 0px;
+    margin: 0px;
+    width: 17%;
+    height: 17.5%;
+    position: absolute;
+    border: 2px solid #252525;
+    background-color: #535350e2;
+}
+.gorilainv{
+    left: 41.2%;
+    top: 6%;
+    padding: 0px;
+    margin: 0px;
+    width: 17.5%;
+    height: 17.5%;
+    position: absolute;
+    border: 2px solid #252525;
+    background-color: #535350e2;
+}
+.akmaginv{
+    left:4%;
+    top: 6%;
+    padding: 0px;
+    margin: 0px;
+    width: 17%;
+    height: 27.5%;
+    position: absolute;
+    border: 2px solid #252525;
+    background-color: #535350e2;
+}
+.caniveteinv{
+    left: 4%;
+    top: 36.5%;
+    padding: 0px;
+    margin: 0px;
+    width: 17%;
+    height: 27.5%;
+    position: absolute;
+    border: 2px solid #252525;
+    background-color: #535350e2;
+}
+.trofeuinv{
+    left: 22.8%;
+    top: 26.3%;
+    padding: 0px;
+    margin: 0px;
+    width: 17%;
+    height: 27.5%;
+    position: absolute;
+    border: 2px solid #252525;
+    background-color: #535350e2;
+}
+.chaveinv{
+    left: 41.2%;
+    top: 26.3%;
+    padding: 0px;
+    margin: 0px;
+    width: 17.5%;
+    height: 17.5%;
+    position: absolute;
+    border: 2px solid #252525;
+    background-color: #535350e2;
+}
+
+
+.barralateral{
+    background-color:  rgba(0, 0, 0, 0.796);
+    width: 18%;
+    height:85%;
+    position: absolute;
+    right: 0px;
+    top:15%;
+    text-align: center;
+    display: flex;   
+    transition: 1s;
+    
+}
+
+
+
+.barralaterall{
+    background-color: rgba(0, 0, 0, 0.796);
+    width: 2%;
+    height:85%;
+    position: absolute;
+    right: -1.9%;
+    top:15%;
+    text-align: center;
+    display: flex;   
+    transition: 1s;
+    
+}
+
+.botoeslateral{
+    width: 100%;
+    height: 40%;
+    padding: 2%;
+    position: absolute;
+    bottom:0%;
+    align-items: center;
+    text-decoration: none;
+    color: rgb(56, 129, 109);
+    font-family: "Graduate", serif; 
+    align-content: center;    
+}
+
+.bag-icon{
+    height: auto;
+    width: 30%;
+    position:relative;
+       
+}
+.cel-icon{
+    height: auto;
+    width: 18%;
+    position:relative;
+       
+}
+.botoes-ov-1{
+    height:30%;
+    width: 50%;    
+    background-color: #252525;
+    border: 1px solid gray;
+    border-radius: 5%;
+    padding: 0;
+    margin: 2%;
+    margin-left: 30%;
+    cursor: pointer; 
+}
+.botoes-ov-2{
+    height:30%;
+    width: 50%;    
+    background-color: #252525;
+    border: 1px solid gray;
+    border-radius: 5%;
+    padding: 0;
+    margin: 2%;
+    margin-left: 30%;
+    cursor: pointer; 
+}
+.botoes-ov-3{
+    height:30%;
+    width: 50%;    
+    background-color: #252525;
+    border: 1px solid gray;
+    border-radius: 5%;
+    padding: 0;
+    margin: 2%;
+    margin-left: 30%; 
+    cursor: pointer;
+}
+.botoes-ov-1:hover{
+    height:30%;
+    width: 50%;    
+    background-color: #000000;
+    border: 1px solid gray;
+    border-radius: 5%;
+    padding: 0;
+    margin: 2%;
+    margin-left: 30%; 
+    cursor: pointer;
+}
+.botoes-ov-2:hover{
+    height:30%;
+    width: 50%;    
+    background-color: #000000;
+    border: 1px solid gray;
+    border-radius: 5%;
+    padding: 0;
+    margin: 2%;
+    margin-left: 30%; 
+    cursor: pointer;
+}
+.botoes-ov-3:hover{
+    height:30%;
+    width: 50%;    
+    background-color: #000000;
+    border: 1px solid gray;
+    border-radius: 5%;
+    padding: 0;
+    margin: 2%;
+    margin-left: 30%; 
+    cursor: pointer;
+}
+.botao-lt{
+    background-color: #252525;
+    border: none;
+    cursor: pointer;
+}
+
+.botao-lt:hover{
+    background-color: #000000;
+    border: none;
+    cursor: pointer;
+}
+.link-lt{
+    
+    border: 10% solid #252525 ;
+    text-decoration: none;
+    color:  rgb(56, 129, 109);
+    font-size: 15px;
+    font-family: "Graduate", serif; 
+}
+.slider{
+    color: rgb(56, 129, 109);
+    height: 60%;
+    width: 96%;
+    border-radius: 2%;
+    position: absolute;
+    display:flex;
+    font-size: 16px;
+    overflow: hidden;
+    margin: 2%;   
+      
+}
+
+.slides{
+    width: 100%;
+    height: 100%;
+}
+
+.slide1{
+    color: rgb(56, 129, 109);
+    height: 100%;
+    width: 100%;
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 2%;
+    position: relative;
+    display: flex;
+    font-size: 16px;
+}   
+
