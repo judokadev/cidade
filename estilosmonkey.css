@@ -50,14 +50,12 @@
     color: rgb(56, 129, 109);
     text-align: center;
 }
-.divfundo{
-    width: 100%;
-    height: 100%;    
-}
+
 .imgbairro{
+    position: absolute;
     width: 99%;
-    height: 90%;   
-    margin-top: 0;
+    height: 95%;   
+    margin: 0;
     border: 5px solid #474747;
     border-top: 15px solid #474747;
     border-radius: 2%;
@@ -1044,7 +1042,29 @@ h{
 }
 
 .glock2{
-    left:4.7%;
+    left:4%;
+    top: 6.5%;
+    padding: 0px;
+    margin: 0px;
+    width: 26.5%;
+    height: 27%;
+    position: absolute;
+    border: 2px solid #252525;
+    background-color: #535350e2;
+}
+.p1911{
+    top: 66.5%;
+    left: 60.2%;
+    padding: 0px;
+    margin: 0px;
+    width: 26.5%;
+    height: 27%;
+    position: absolute;
+    border: 2px solid #252525;
+    background-color: #535350e2;
+}
+.tchacos{
+    left:33%;
     top: 6.5%;
     padding: 0px;
     margin: 0px;
@@ -1055,12 +1075,12 @@ h{
     background-color: #535350e2;
 }
 .revolverp{
-    width: 25%;
+    width: 26.5%;
     height: 27%;
     margin: 0;
     padding: 0;
-    left: 33%;
-    top:6.5%;
+    left: 4%;
+    top:66.5%;
     position: absolute;
     border: 2px solid #252525;
     background-color: #535350e2;
@@ -1098,6 +1118,28 @@ h{
     border: 2px solid #252525;
     background-color: #535350e2;
 }
+.katanainv{
+    width: 53.5%;
+    height: 27%;
+    margin: 0;
+    padding: 0;
+    left: 4.7%;
+    top: 66.5%;
+    position: absolute;
+    border: 2px solid #252525;
+    background-color: #535350e2;
+}
+.machadomochila{
+    width: 26%;
+    height: 67%;
+    margin: 0;
+    padding: 0;
+    left: 60.5%;
+    top: 6.5%;
+    position: absolute;
+    border: 2px solid #252525;
+    background-color: #535350e2;
+}
 .akequip{
     padding: 0px;
     margin: 0px;
@@ -1112,6 +1154,17 @@ h{
 .muniinv{
     left: 22.8%;
     top: 6%;
+    padding: 0px;
+    margin: 0px;
+    width: 17%;
+    height: 17.5%;
+    position: absolute;
+    border: 2px solid #252525;
+    background-color: #535350e2;
+}
+.estr-inv{
+    left: 41.5%;
+    top: 46%;
     padding: 0px;
     margin: 0px;
     width: 17%;
@@ -1144,7 +1197,7 @@ h{
 }
 .caniveteinv{
     left: 4%;
-    top: 36.5%;
+    top: 36%;
     padding: 0px;
     margin: 0px;
     width: 17%;
@@ -1462,3 +1515,18 @@ font-family: "Graduate", serif;
     top: 10%;
     border: 3px solid rgb(43, 43, 43);
 }
+
+#canva1{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+#macaco{
+    margin-top: 1.2%;
+    margin-left: 0;
+    border: 2px  ;
+    width: 98%;
+    height: 91.3%;
+}
+
